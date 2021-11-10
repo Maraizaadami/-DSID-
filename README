@@ -1,0 +1,24 @@
+#ACH2147 - Desenvolvimento de Sistemas de Informação Distribuídos
+#Prof. Dr. Norton Trevisan Roman
+#Segundo exercício de programação - Análise de Dados com Apache Spark
+Grupo 
+Guilherme Neves 
+Hugo Giudice Bentivegna 
+Kleber Tadashi Fujimura 
+Maraiza Adami Pereira 
+Vinicius Mariano Bispo 
+
+Objetivo neste exercício foi implementar uma interface de usuário que
+permitisse aplicar as funções estatísticas escolhidas a cada tipo de informação
+disponível no dataset.
+Para isso realizamos a instalação do Apache PySpark para funcionar com
+Jupyter Notebook
+No desenvolvimento da interface usamos a biblioteca Tkinter, uma biblioteca
+da linguagem Python que acompanha a instalação padrão e permite desenvolver
+interfaces gráficas.
+A interface permite ao usuário especificar:
+● O tipo de informação que será analisada;
+● Qual o período de tempo que será considerado na análise;
+● Como o resultado deve ser agrupado
+● fazer a predição dos valores do tipo de informação que este escolher (dentre
+as disponíveis no dataset), usando o método dos quadrados mínimos.
